@@ -1,0 +1,28 @@
+{
+  "disc_count": 2,
+  "verdict": "data-only",
+  "differing_program_fields": [],
+  "warnings": [],
+  "discs": [
+    {
+      "index": 1,
+      "cue_name": "disc1.cue",
+      "cue_path": "disc1.cue",
+      "serial": "SLPS-02020",
+      "boot_exe": "SLPS_020.20",
+      "entry_pc": "0x801255AC",
+      "track_count": 1,
+      "required_disc_fp": "abe0567b36278051f8343aabb814a4502fe89d0394385c2ae1d8751e956e2dbb"
+    },
+    {
+      "index": 2,
+      "cue_name": "disc2.cue",
+      "cue_path": "disc2.cue",
+      "serial": "SLPS-02021",
+      "boot_exe": "SLPS_020.21",
+      "entry_pc": "0x801255AC",
+      "track_count": 1,
+      "required_disc_fp": "bb62fd25af7eb4ac47037fadc262d137dbe4af6896d77496c0ea9b38982c7c3b"
+    }
+  ]
+}

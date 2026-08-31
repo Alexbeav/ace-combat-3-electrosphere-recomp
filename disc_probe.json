@@ -1,0 +1,31 @@
+{
+  "cue_path": "disc1.cue",
+  "cue_name": "disc1.cue",
+  "bin_name": "disc1.bin",
+  "track_count": 1,
+  "data_track_size": 716287488,
+  "data_track_md5": "30f7dce98b6901290cb26c9baf27268f",
+  "data_track_sha1": "8c6d58308eb389a7b18bc213a6d1e23d14fd3c10",
+  "data_track_crc32": "ccdda3b5",
+  "boot_exe": "SLPS_020.20",
+  "serial": "SLPS-02020",
+  "serial_exe": "SLPS_020.20",
+  "volume_id": "ACE3ES1",
+  "display_name": "ace-combat-3-electrosphere-",
+  "load_address": "0x80120000",
+  "entry_pc": "0x801255AC",
+  "text_size": "0x00075000",
+  "stack_base": "0x801FFFF0",
+  "require_cue": true,
+  "required_disc_fp": "abe0567b36278051f8343aabb814a4502fe89d0394385c2ae1d8751e956e2dbb",
+  "boot_exe_sha256": "daddca3ac3299372370a8cf7a046eb066537a39cf53216904009c46f2924b0e5",
+  "seed_count": 233,
+  "warnings": [
+    "cue has only 1 TRACK — Track-01-only dumps fail multi-track netplay/catalog gates; prefer a full Redump cue."
+  ],
+  "notes": [
+    "entry_pc/load_address/text_size/stack_base taken from PS-X EXE header.",
+    "seeds are first-pass boot-EXE JAL targets (+ entry); expect to grow as overlays / runtime paths are discovered.",
+    "required_disc_fp is psxrecomp-toc-v1 (matches runtime DiscIdentity)."
+  ]
+}
